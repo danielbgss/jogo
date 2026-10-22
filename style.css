@@ -1,4 +1,3 @@
-
 [data-bs-theme="dark"] {
     --bs-body-bg: #0a0b0d;
 }
@@ -37,10 +36,7 @@
 }
 
 .btn-mc {
-  /* Texto simples e escuro nos botões (como antes).
-     Para usar a Honk de volta, troque por: "Honk", system-ui
-     e aumente o tamanho para algo como 2.4rem. */
-  --bs-btn-font-family: system-ui, sans-serif;
+  --bs-btn-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --bs-btn-font-size: 1.4rem;
   --bs-btn-padding-y: 0.4rem;
   --bs-btn-color: #1a1a1a;
