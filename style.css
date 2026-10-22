@@ -1,3 +1,8 @@
+
+[data-bs-theme="dark"] {
+    --bs-body-bg: #0a0b0d;
+}
+
 #logo_jogo {
     font-family: "Honk", system-ui;
     font-size: 9rem;
@@ -20,9 +25,23 @@
     "SHLN" 50;
 }
 
+#numero_jogo {
+    font-family: "Honk", system-ui;
+    font-size: 4rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
 .btn-mc {
-  --bs-btn-font-family: "Honk", system-ui;
-  --bs-btn-font-size: 1.6rem;
+  /* Texto simples e escuro nos botões (como antes).
+     Para usar a Honk de volta, troque por: "Honk", system-ui
+     e aumente o tamanho para algo como 2.4rem. */
+  --bs-btn-font-family: system-ui, sans-serif;
+  --bs-btn-font-size: 1.4rem;
   --bs-btn-padding-y: 0.4rem;
   --bs-btn-color: #1a1a1a;
   --bs-btn-border-width: 3px;
@@ -34,7 +53,6 @@
   --bs-btn-active-border-color: #000;
 
   font-weight: 700;
-  font-variation-settings: "MORF" 15, "SHLN" 50;
   text-transform: uppercase;
   letter-spacing: 2px;
 
@@ -62,4 +80,3 @@
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, .35),
               2px 2px 0 #000;
 }
-
