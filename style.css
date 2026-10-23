@@ -1,3 +1,7 @@
+/* Fonte dos botões (negrito), carregada da web para ficar igual em qualquer computador */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+/* Fundo fixo: não depende mais do padrão de cada versão do Bootstrap */
 [data-bs-theme="dark"] {
     --bs-body-bg: #0a0b0d;
 }
@@ -24,6 +28,8 @@
     "SHLN" 50;
 }
 
+
+
 #numero_jogo {
     font-family: "Honk", system-ui;
     font-size: 4rem;
@@ -36,7 +42,7 @@
 }
 
 .btn-mc {
-  --bs-btn-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-btn-font-family: "Open Sans", system-ui, sans-serif;
   --bs-btn-font-size: 1.4rem;
   --bs-btn-padding-y: 0.4rem;
   --bs-btn-color: #1a1a1a;
@@ -48,7 +54,9 @@
   --bs-btn-active-color: #1a1a1a;
   --bs-btn-active-border-color: #000;
 
+  font-family: "Open Sans", system-ui, sans-serif;
   font-weight: 700;
+  color: #1a1a1a;
   text-transform: uppercase;
   letter-spacing: 2px;
 
@@ -75,4 +83,25 @@
   transform: translate(4px, 4px);
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, .35),
               2px 2px 0 #000;
+}
+
+
+/* ---------- Página do jogo ---------- */
+#pergunta_jogo {
+  font-family: "Honk", system-ui;
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+/* Feedback de certo/errado (ficam por último para vencerem o :hover) */
+.btn-mc.certa  { background-image: linear-gradient(#b6ff8a, #1fa84a); }
+.btn-mc.errada { background-image: linear-gradient(#ff8a8a, #c41e1e); }
+
+/* Resultado da tela final */
+#resultado_jogo {
+  font-family: "Honk", system-ui;
+  font-size: 3rem;
+  font-weight: 700;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
 }

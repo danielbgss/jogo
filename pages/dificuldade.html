@@ -15,30 +15,86 @@
 </head>
 <body>
     <div class="container">
+
+        <!-- TITULO JOGO -->
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h1 id="logo_jogo">Quiz Expotech</h1>
             </div>
         </div>
 
-        <div class="row justify-content-center mt-5">
-            <div class="col-12 text-center">
-                <h3 id="descricao_jogo">Selecione a dificuldade: </h3>
+
+        <!-- TELA 1: ESCOLHER A DIFICULDADE -->
+        <div id="tela_dificuldade">
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 text-center">
+                    <h2 id="descricao_jogo">Selecione a dificuldade:</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="d-grid gap-4">
+                        <!-- data-nivel precisa ser igual às chaves do JSON ("facil" e "dificil") -->
+                        <button class="btn btn-mc rounded-0" data-nivel="facil">Fácil</button>
+                        <button class="btn btn-mc rounded-0" data-nivel="dificil">Difícil</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mensagem de erro, caso o JSON não carregue -->
+            <p id="mensagem_erro" class="text-center text-danger mt-4"></p>
+        </div>
+
+
+        <!-- TELA 2: PERGUNTA -->
+        <div id="tela_jogo" class="d-none">
+            <div class="row align-items-center mt-4">
+                <div class="col-6">
+                    <span id="numero_jogo">1/1</span>
+                </div>
+                <div class="col-6 text-end fs-3">
+                    <i class="bi bi-check-circle-fill text-success"></i> <strong id="acertos">0</strong>
+                    &nbsp;
+                    <i class="bi bi-x-circle-fill text-danger"></i> <strong id="erros">0</strong>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 text-center">
+                    <h3 id="pergunta_jogo">Inserir texto</h3>
+                </div>
+            </div>
+
+            <!-- As 4 alternativas são criadas aqui pelo JavaScript, 2 por linha -->
+            <div id="alternativas" class="row justify-content-center mt-5 gy-4"></div>
+        </div>
+
+
+        <!-- TELA 3: resultado final (escondida até acabarem as perguntas) -->
+        <div id="tela_fim" class="d-none">
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 text-center">
+                    <h2 id="resultado_jogo"></h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-10 col-md-6 col-lg-4">
+                    <div class="d-grid gap-4">
+                        <button id="btn_reiniciar" class="btn btn-mc rounded-0">Jogar de novo</button>
+                        <a href="../index.html" class="btn btn-mc rounded-0">Menu</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row justify-content-center mt-5 gy-4">
-            <div class="col-6 col-md-6">
-                <a href="pergunta.html" class="btn btn-mc w-100 rounded-0">Fácil</a>
-            </div>
-
-            <div class="col-6 col-md-6">
-                <a href="pergunta.html" class="btn btn-mc w-100 rounded-0">Difícil</a>
-            </div>
-        </div>
     </div>
 
 
-</body>
+
+    <script src="../js/pergunta.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
 </html>

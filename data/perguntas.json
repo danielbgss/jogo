@@ -1,0 +1,390 @@
+{
+    "facil": [
+        {
+            "pergunta": "Para quê serve o Planejamento e Controle da Produção (PCP)?",
+            "alternativa": [
+                "Para organizar o que será produzido e quando",
+                "Para escolher a cor da parede da fábrica",
+                "Para decidir o que assistir na televisão",
+                "Para organizar uma festa de aniversário"
+            ],
+            "correta": 0
+        },
+        {
+            "pergunta": "Qual a principal função da logística?",
+            "alternativa": [
+                "Pintar os produtos",
+                "Fazer os produtos chegarem ao lugar certo",
+                "Desenhar os uniformes dos funcionários",
+                "Decorar o escritório"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "Para quê serve uma lista de verificação (checklist)?",
+            "alternativa": [
+                "Para esquecer as tarefas",
+                "Para aumentar a bagunça",
+                "Para conferir se as tarefas foram realizadas",
+                "Para escolher o lanche do dia"
+            ],
+            "correta": 2
+        },
+        {
+            "pergunta": "Porque devemos utilizar equipamentos de proteção no trabalho, como capacetes e luvas, quando necessário?",
+            "alternativa": [
+                "Para proteger o trabalhador contra acidentes e riscos",
+                "Para ficar mais bonito",
+                "Para ficar mais devagar de propósito",
+                "Para substituir todas as ferramentas"
+            ],
+            "correta": 0
+        },
+        {
+            "pergunta": "O que devemos fazer ao encontrar um líquido derramado no chão da fábrica?",
+            "alternativa": [
+                "Correr por cima dele",
+                "Ignorar o problema",
+                "Avisar o responsável e providenciar a limpeza segura",
+                "Jogar mais água sem verificar o risco"
+            ],
+            "correta": 2
+        },
+        {
+            "pergunta": "Se você vai abrir uma barraquinha de limonada com seus amigos, o que você precisa planejar antes de começar a vender para os vizinhos?",
+            "alternativa": [
+                "Apenas quantos copos vazios você vai jogar no lixo no final do dia",
+                "Quantos limões comprar, de quantos copos vai precisar e quanto vai cobrar por cada copo",
+                "Em qual praia você vai gastar o dinheiro daqui dez anos",
+                "Não é preciso planejamento"  
+            ],
+            "correta": 1
+        },
+        {       
+            "pergunta": "O que é qualidade em um produto?",
+            "alternativa": [
+                "Um produto sem prazo de validade",
+                "Atender aos requisitos e funcionar corretamente",
+                "Um produto que contém todas informações de composição em sua embalagem",
+                "Um produto com aparência bonita, mesmo que não funcione corretamente"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "O que devemos fazer ao encontrar um piso molhado em uma fábrica?",
+            "alternativa": [
+                "Correr no corredor",
+                "Não fazer nada",
+                "Avisar alguém responsável pela limpeza do local",
+                "Cobrir o piso molhado com papel e continuar trabalhando"
+            ],
+            "correta": 2
+        },
+        {
+            "pergunta": "O que é logística?",
+            "alternativa": [
+                "Dificultar os processos da empresa",
+                "Organizar o transporte, o armazenamento e a movimentação de materiais",
+                "Deixar os processos da empresa mais lento",
+                "Definir os uniformes utilizados pelos funcionários"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "Para que serve o controle de estoque?",
+            "alternativa": [
+                "Saber a quantidade de materiais disponíveis",
+                "Perder o controle de materiais disponíveis",
+                "Dificultar a localização de materiais",
+                "Determinar os horários de intervalo dos funcionários"
+            ],
+            "correta": 0
+        },
+        {
+            "pergunta": "Para que serve o 5S?",
+            "alternativa": [
+                "Organizar, limpar e melhorar o ambiente de trabalho",
+                "Aumentar a bagunça no local de trabalho",
+                "Fazer os funcionários trabalharem",
+                "Aumentar a quantidade de materiais sem organizar o espaço"
+            ],
+            "correta": 0
+        },
+        {
+            "pergunta": "O que acontece quando uma empresa atrasa a produção?",
+            "alternativa": [
+                "Todos os clientes recebem os produtos antes do prazo",
+                "As entregas podem atrasar",
+                "Os produtos ficam automaticamente melhores",
+                "Os custos sempre diminuem e os clientes ficam mais satisfeitos"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "Um funcionário percebe que faltam peças para montar um produto O que deve fazer?",
+            "alternativa": [
+                "Continuar a montagem sem as peças",
+                "Avisar o responsável para providenciar os materiais",
+                "Esconder a falta de peças",
+                "Usar peças diferentes sem autorização"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "Um produto saiu da fábrica com uma peça quebrada. O que isso representa?",
+            "alternativa": [
+                "Um aumento da produtividade",
+                "Um problema de qualidade",
+                "Uma melhoria no processo",
+                "Um exemplo de produto sem defeitos"
+            ],
+            "correta": 1
+        },
+        {
+            "pergunta": "Para que serve um uniforme de segurança?",
+            "alternativa": [
+                "Para proteger e identificar o trabalhador, conforme sua finalidade",
+                "Para substituir todos os equipamentos de segurança",
+                "Para evitar que o funcionário precise trabalhar",
+                "Para substituir a manutenção das máquinas"
+            ],
+            "correta": 0
+        }
+
+    ],
+
+
+    "dificil": [
+        {
+        "pergunta": "Uma fábrica precisa entregar 1.000 peças em cinco dias. A produção planejada é de 200 peças por dia, mas no primeiro dia foram produzidas apenas 150. Qual é a melhor atitude do PCP?",
+        "alternativa": [
+            "Ignorar a diferença, pois ainda faltam quatro dias",
+            "Analisar o motivo do atraso e reprogramar a produção para cumprir o prazo",
+            "Parar toda a produção até o último dia",
+            "Reduzir a quantidade do pedido sem consultar o cliente"
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Uma empresa deseja reduzir os custos de transporte sem comprometer o prazo de entrega. Qual ação é mais adequada?",
+        "alternativa": [
+            "Enviar cada produto em um veículo diferente, independentemente da carga",
+            "Escolher sempre o caminho mais longo",
+            "Planejar as rotas e consolidar cargas quando isso for viável",
+            "Deixar os veículos saírem sem planejamento"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Uma fábrica percebeu que muitos produtos apresentam o mesmo defeito. A equipe deseja identificar as causas mais prováveis e organizar a investigação. Qual ferramenta pode ajudar?",
+        "alternativa": [
+            "Diagrama de Ishikawa (causa e efeito)",
+            "Organograma da empresa",
+            "Calendário de férias",
+            "Lista telefônica"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Durante uma inspeção, um trabalhador percebe que uma máquina está operando sem a proteção de segurança necessária. Qual deve ser a conduta adequada?",
+        "alternativa": [
+            "Continuar trabalhando, desde que tenha cuidado",
+            "Retirar outras proteções para facilitar o serviço",
+            "Comunicar o risco e interromper a operação conforme os procedimentos de segurança, até que a condição seja corrigida",
+            "Esperar que aconteça um acidente para registrar o problema"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o principal objetivo do Planejamento e Controle da Produção (PCP) dentro de uma empresa industrial?",
+        "alternativa": [
+            "Definir quais serão os preços de venda e as campanhas publicitárias dos produtos",
+            "Realizar a contratação e o treinamento de todos os funcionários da empresa",
+            "Coordenar os recursos produtivos (materiais, máquinas e mão de obra) para que o produto certo seja entregue no prazo e ao menor custo possível",
+            "Cuidar exclusivamente da contabilidade e do balanço financeiro anual da organização"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "O ciclo de funcionamento do PCP é dividido em etapas fundamentais. O que a etapa de Controle busca fazer após a produção ter sido iniciada?",
+        "alternativa": [
+            "Criar novos projetos de produtos do zero para o próximo ano ",
+            "Acompanhar o que está sendo executado e comparar com o que foi planejado, aplicando correções caso ocorram atrasos ou desvios ",
+            "Comprar toda a matéria-prima de uma única vez, sem verificar o espaço no estoque ",
+            "Definir a missão e a visão de longo prazo da empresa "
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "O PCP atua em diferentes horizontes de tempo. Como costuma ser tratado o planejamento de curto prazo (chão de fábrica) em comparação ao planejamento de longo prazo?",
+        "alternativa": [
+            "O curto prazo foca apenas na estratégia global da empresa e nos investimentos de anos ",
+            "O curto prazo não tem importância, pois o que vale é apenas a visão de longo prazo ",
+            "O curto prazo lida com o detalhamento diário das operações, definindo a ordem exata em que as máquinas vão fabricar os produtos ",
+            "O curto prazo serve unicamente para prever as crises econômicas dos próximos dez anos "
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é um dos principais objetivos do controle de materiais feito pelo PCP na fábrica?",
+        "alternativa": [
+            "Deixar todos os armazéns sempre lotados para que a fábrica nunca pare, sem se importar com os custos ",
+            "Garantir que a matéria-prima certa esteja disponível na quantidade certa e no momento certo, evitando faltas ou excessos ",
+            "Impedir que qualquer produto novo seja fabricado pela empresa ",
+            "Cuidar apenas da limpeza e da organização física do depósito de ferramentas "
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Por que o PCP é considerado o \"coração\" ou o \"cérebro\" de uma fábrica?",
+        "alternativa": [
+            "Porque ele substitui completamente a necessidade de gerentes e diretores na empresa ",
+            "Porque ele é o setor responsável por vender os produtos diretamente nas lojas físicas ",
+            "Porque ele integra os diferentes setores (como vendas, compras e produção), evitando falta de materiais ou ociosidade de máquinas ",
+            "Porque ele garante que a empresa nunca terá nenhum tipo de problema ou imprevisto "
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual ferramenta da qualidade ajuda a identificar as causas de um problema?",
+        "alternativa": [
+            "Diagrama de Ishikawa ",
+            "Nota fiscal ",
+            "Organograma de férias ",
+            "Cronograma de produção "
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual indicador ajuda a avaliar o tempo necessário para processar um pedido?",
+        "alternativa": [
+            "Cor das embalagens ",
+            "Tempo de ciclo do pedido ",
+            "Número de reuniões mensais ",
+            "Quantidade de funcionários no escritório "
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Uma empresa está produzindo muitas peças com defeito. O que deve fazer?",
+        "alternativa": [
+            "Ignorar os defeitos ",
+            "Aumentar a produção sem investigar ",
+            "Investigar as causas e definir ações corretivas ",
+            "Embalar os produtos defeituosos e enviá-los aos clientes "
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "O que fazer ao identificar um risco grave e iminente no trabalho?",
+        "alternativa": [
+            "Continuar trabalhando para não atrasar a produção ",
+            "Esperar acontecer um acidente ",
+            "Interromper a exposição ao risco e comunicar os responsáveis ",
+            "Continuar a atividade e comunicar o risco somente no fim do turno "
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "No Planejamento e Controle da Produção (PCP), qual é o principal objetivo de programar a produção?",
+        "alternativa": [
+            "Produzir o máximo possível, independentemente da demanda ",
+            "Coordenar recursos, prazos e operações para atender à demanda de forma eficiente ",
+            "Eliminar a necessidade de controle de estoque ",
+            "Evitar qualquer alteração no processo produtivo "
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Uma empresa deseja identificar as causas mais frequentes dos defeitos de seus produtos. Qual ferramenta da qualidade é mais indicada para priorizar os problemas que representam a maior parcela das ocorrências?",
+        "alternativa": [
+            "Diagrama de Ishikawa ",
+            "Fluxograma ",
+            "Diagrama de Pareto ",
+            "Folha de pagamento "
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Na logística, qual é a principal função do sistema FIFO (First In, First Out)?",
+        "alternativa": [
+            "Separar os produtos pelo maior preço ",
+            "Armazenar primeiro os produtos mais novos ",
+            "Despachar os produtos de maior tamanho primeiro ",
+            "Garantir que os primeiros produtos que entram sejam os primeiros a sair "
+        ],
+        "correta": 3
+    },
+    {
+        "pergunta": "Uma máquina apresenta falhas frequentes, causando atrasos na produção. Qual ação é mais adequada para melhorar o planejamento e o controle da produção?",
+        "alternativa": [
+            "Ignorar as falhas e manter o cronograma original ",
+            "Implementar manutenção preventiva e reprogramar a produção conforme a capacidade disponível ",
+            "Aumentar a produção sem avaliar a capacidade da máquina ",
+            "Eliminar as inspeções de qualidade para compensar o atraso "
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "De acordo com os princípios de segurança do trabalho, qual medida deve ser priorizada para controlar um risco ocupacional na sua origem?",
+        "alternativa": [
+            "Fornecer apenas equipamentos de proteção individual (EPIs)",
+            "Orientar os trabalhadores a conviver com o risco",
+            "Eliminar o perigo ou implementar medidas de proteção coletiva antes de depender exclusivamente dos EPIs",
+            "Investigar o risco somente depois de ocorrer um acidente"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "O que significa produzir utilizando o sistema Just in Time (JIT)?",
+        "alternativa": [
+            "Produzir e receber materiais conforme a necessidade, reduzindo estoques desnecessários",
+            "Manter grandes estoques de todos os materiais, independentemente da demanda",
+            "Fabricar produtos sem planejamento ou controle",
+            "Produzir grandes quantidades para manter estoques elevados"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é a principal finalidade do sistema Kanban?",
+        "alternativa": [
+            "Calcular os salários da equipe de produção",
+            "Substituir todos os equipamentos de segurança",
+            "Sinalizar e controlar o fluxo de materiais e as etapas de produção",
+            "Registrar exclusivamente as despesas financeiras da empresa"
+        ],
+        "correta": 2
+    },
+    {
+        "pergunta": "Uma empresa deseja identificar quais produtos representam a maior parte do valor total do estoque. Qual ferramenta pode ajudar?",
+        "alternativa": [
+            "Diagrama de Ishikawa",
+            "Curva ABC",
+            "Checklist de segurança",
+            "Diagrama de fluxo de pessoas"
+        ],
+        "correta": 1
+    },
+    {
+        "pergunta": "Para que serve o ciclo PDCA na gestão da qualidade?",
+        "alternativa": [
+            "Planejar, executar, verificar os resultados e agir para melhorar continuamente",
+            "Aumentar a produção sem avaliar os resultados",
+            "Eliminar a necessidade de acompanhar os processos",
+            "Executar tarefas sem verificar os resultados"
+        ],
+        "correta": 0
+    },
+    {
+        "pergunta": "Uma fábrica apresenta muitos defeitos em uma linha de montagem. Qual ferramenta é adequada para investigar as possíveis causas do problema?",
+        "alternativa": [
+            "Organograma",
+            "Curva ABC",
+            "Diagrama de Ishikawa",
+            "Tabela de preços dos produtos"
+        ],
+        "correta": 2
+    }
+    ]
+
+}
